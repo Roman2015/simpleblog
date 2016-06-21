@@ -1,0 +1,12 @@
+<h1> Welcome3!</h1>
+<% user = current_user %>
+<table class ="table">
+	<tr>
+		<th>Name</th>
+		<td><% User.name %></td>
+	</tr>	
+	<tr>
+		<th>Email</th>
+		<td><%= user.email %></td>
+	</tr>	
+</table>
